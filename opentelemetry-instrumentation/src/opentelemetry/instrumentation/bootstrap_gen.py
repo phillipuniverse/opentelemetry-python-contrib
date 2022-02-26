@@ -116,6 +116,10 @@ libraries = {
         "library": "requests ~= 2.0",
         "instrumentation": "opentelemetry-instrumentation-requests==0.28b1",
     },
+    "rq": {
+        "library": "rq >= 1.8.0",
+        "instrumentation": "opentelemetry-instrumentation-rq==0.28b1",
+    },
     "scikit-learn": {
         "library": "scikit-learn ~= 0.24.0",
         "instrumentation": "opentelemetry-instrumentation-sklearn==0.28b1",
